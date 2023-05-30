@@ -76,6 +76,7 @@
 				} );
 
 				$( '.form-input' ).keyup( function( e ) {
+					
 					if ( e.keyCode == 13 ) { // our enter key
 						processLogin();
 					}
